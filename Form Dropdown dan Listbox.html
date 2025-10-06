@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Dropdown dan Listbox</title>
+</head>
+<body>
+    <h2>Form Pilihan</h2>
+
+    <form>
+       
+        <label for="jurusan">Pilih Jurusan:</label><br>
+        <select id="jurusan" name="jurusan">
+            <option value="rpl">RPL</option>
+            <option value="tkj">TKJ</option>
+            <option value="mm">Multimedia</option>
+        </select>
+
+        <br><br>
+
+        
+        <label for="hobi">Pilih Hobi (bisa lebih dari satu):</label><br>
+        <select id="hobi" name="hobi" multiple size="4">
+            <option value="membaca">Membaca</option>
+            <option value="menulis">Menulis</option>
+            <option value="musik">Musik</option>
+            <option value="olahraga">Olahraga</option>
+        </select>
+
+        <br><br>
+
+        <input type="submit" value="Kirim">
+    </form>
+</body>
+</html>
